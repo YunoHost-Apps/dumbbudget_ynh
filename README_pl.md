@@ -3,42 +3,61 @@ To README zostało automatycznie wygenerowane przez <https://github.com/YunoHost
 Nie powinno być ono edytowane ręcznie.
 -->
 
-# DumbKan dla YunoHost
+# DumbBudget dla YunoHost
 
-[![Poziom integracji](https://apps.yunohost.org/badge/integration/dumbkan)](https://ci-apps.yunohost.org/ci/apps/dumbkan/)
-![Status działania](https://apps.yunohost.org/badge/state/dumbkan)
-![Status utrzymania](https://apps.yunohost.org/badge/maintained/dumbkan)
+[![Poziom integracji](https://apps.yunohost.org/badge/integration/dumbbudget)](https://ci-apps.yunohost.org/ci/apps/dumbbudget/)
+![Status działania](https://apps.yunohost.org/badge/state/dumbbudget)
+![Status utrzymania](https://apps.yunohost.org/badge/maintained/dumbbudget)
 
-[![Zainstaluj DumbKan z YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbkan)
+[![Zainstaluj DumbBudget z YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbbudget)
 
 *[Przeczytaj plik README w innym języku.](./ALL_README.md)*
 
-> *Ta aplikacja pozwala na szybką i prostą instalację DumbKan na serwerze YunoHost.*  
+> *Ta aplikacja pozwala na szybką i prostą instalację DumbBudget na serwerze YunoHost.*  
 > *Jeżeli nie masz YunoHost zapoznaj się z [poradnikiem](https://yunohost.org/install) instalacji.*
 
 ## Przegląd
 
-A lightweight, mobile-friendly Kanban board application for managing tasks and projects. Built with vanilla JavaScript and Node.js.
+A simple, secure personal budgeting app with PIN protection. Track your income and expenses with a clean, modern interface.
+
+### Features
+
+    🔒 PIN-protected access
+    💰 Track income and expenses
+    📊 Real-time balance calculations
+    🏷️ Categorize transactions
+    📅 Date range filtering
+    🔄 Sort by date or amount
+    📱 Responsive design
+    🌓 Light/Dark theme
+    📤 Export to CSV
+    🔍 Filter transactions by type
+    💱 Multi-currency support
 
 
 **Dostarczona wersja:** 1.0.0~ynh1
+
+## Zrzuty ekranu
+
+![Zrzut ekranu z DumbBudget](./doc/screenshots/screenshot.png)
+
 ## Dokumentacja i zasoby
 
 - Oficjalna strona aplikacji: <https://www.dumbware.io/>
-- Repozytorium z kodem źródłowym: <https://github.com/DumbWareio/DumbPad>
-- Sklep YunoHost: <https://apps.yunohost.org/app/dumbkan>
-- Zgłaszanie błędów: <https://github.com/YunoHost-Apps/dumbkan_ynh/issues>
+- Repozytorium z kodem źródłowym: <https://github.com/DumbWareio/DumbBudget>
+- Sklep YunoHost: <https://apps.yunohost.org/app/dumbbudget>
+- Zgłaszanie błędów: <https://github.com/YunoHost-Apps/dumbbudget_ynh/issues>
 
 ## Informacje od twórców
 
-Wyślij swój pull request do [gałęzi `testing`](https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing).
+Wyślij swój pull request do [gałęzi `testing`](https://github.com/YunoHost-Apps/dumbbudget_ynh/tree/testing).
 
 Aby wypróbować gałąź `testing` postępuj zgodnie z instrukcjami:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dumbbudget_ynh/tree/testing --debug
 lub
-sudo yunohost app upgrade dumbkan -u https://github.com/YunoHost-Apps/dumbkan_ynh/tree/testing --debug
+sudo yunohost app upgrade dumbbudget -u https://github.com/YunoHost-Apps/dumbbudget_ynh/tree/testing --debug
 ```
 
 **Więcej informacji o tworzeniu paczek aplikacji:** <https://yunohost.org/packaging_apps>
