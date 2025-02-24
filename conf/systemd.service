@@ -1,5 +1,5 @@
 [Unit]
-Description=DumbKan: kanban
+Description=DumbBudget: simple budget app
 After=network.target
 
 [Service]
