@@ -22,11 +22,6 @@ A lightweight, mobile-friendly Kanban board application for managing tasks and p
 
 
 **Geleverde versie:** 1.0.0~ynh1
-
-## Schermafdrukken
-
-![Schermafdrukken van DumbKan](./doc/screenshots/screenshot.png)
-
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://www.dumbware.io/>

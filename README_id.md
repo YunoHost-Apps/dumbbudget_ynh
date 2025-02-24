@@ -22,11 +22,6 @@ A lightweight, mobile-friendly Kanban board application for managing tasks and p
 
 
 **Versi terkirim:** 1.0.0~ynh1
-
-## Tangkapan Layar
-
-![Tangkapan Layar pada DumbKan](./doc/screenshots/screenshot.png)
-
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.dumbware.io/>

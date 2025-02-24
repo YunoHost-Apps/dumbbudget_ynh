@@ -22,11 +22,6 @@ A lightweight, mobile-friendly Kanban board application for managing tasks and p
 
 
 **Paketatutako bertsioa:** 1.0.0~ynh1
-
-## Pantaila-argazkiak
-
-![DumbKan(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
-
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://www.dumbware.io/>

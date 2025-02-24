@@ -22,11 +22,6 @@ Une application de tableau Kanban légère et mobile pour la gestion des tâches
 
 
 **Version incluse :** 1.0.0~ynh1
-
-## Captures d’écran
-
-![Capture d’écran de DumbKan](./doc/screenshots/screenshot.png)
-
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://www.dumbware.io/>
