@@ -8,5 +8,5 @@ test_format = 1.0
     # Commits to test upgrade from
     # -------------------------------
 
-    args.currncy = "EUR"
+    args.currency = "EUR"
     args.pin = "1234"
