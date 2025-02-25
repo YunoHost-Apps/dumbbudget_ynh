@@ -36,7 +36,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/dumbbudget"
 
     [install.init_main_permission]
     type = "group"
