@@ -38,6 +38,19 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.currency]
+    ask.en = "Choose the currency code for transactions"
+    ask.fr = "Choisir le code devise pour les transactions"
+    type = "select"
+    choices = ["USD", "EUR", "GBP", "CHF", "CNY", "JPY"]
+    default = "EUR"
+
+    [install.pin]
+    ask.en = "Choose an optional PIN protection (4-10 digits)"
+    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
+    type = "number"
+    default = ""
+
 [resources]
 
     [resources.sources]
