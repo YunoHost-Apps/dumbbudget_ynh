@@ -15,6 +15,7 @@ maintainers = ["eric_G"]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
 code = "https://github.com/DumbWareio/DumbBudget"
+fund = "https://buymeacoffee.com/dumbware"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -25,9 +26,9 @@ multi_instance = true
 ldap = false
 sso = false
 
-disk = "50M"
-ram.build = "50M"
-ram.runtime = "50M"
+disk = "200M"
+ram.build = "200M"
+ram.runtime = "70M"
 
 [install]
     [install.domain]
@@ -36,6 +37,19 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.currency]
+    ask.en = "Choose the currency code for transactions"
+    ask.fr = "Choisir le code devise pour les transactions"
+    type = "select"
+    choices = ["CHF", "CNY", "EUR", "GBP", "JPY", "USD"]
+    default = "EUR"
+
+    [install.pin]
+    ask.en = "Choose an optional PIN protection (4-10 digits)"
+    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
+    type = "number"
+    default = ""
 
 [resources]
 
