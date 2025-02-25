@@ -34,9 +34,20 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
+    [install.path]
+    type = "path"
+    default = "/example"
+
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.currency]
+    ask.en = "Choose the currency code for transactions"
+    ask.fr = "Choisir le code devise pour les transactions"
+    type = "select"
+    choices = ["USD", "EUR", "GBP", "CHF", "CNY", "JPY"]
+    default = "EUR"
 
 [resources]
 

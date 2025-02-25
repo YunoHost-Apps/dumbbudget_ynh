@@ -4,6 +4,21 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
+# RETRIEVE ARGUMENTS FROM THE MANIFEST
+#=================================================
+
+currency=$YNH_APP_ARG_CURRENCY
+pin=$YNH_APP_ARG_PIN
+
+#=================================================
+# STORE SETTINGS FROM MANIFEST
+#=================================================
+ynh_script_progression "Storing installation settings..."
+
+ynh_app_setting_set --key=currency --value=$currency
+ynh_app_setting_set --key=pin --value=$pin
+
+#=================================================
 # INSTALL DEPENDENCIES
 #=================================================
 ynh_script_progression "Installing dependencies..."
