@@ -42,7 +42,7 @@ ram.runtime = "50M"
     ask.en = "Choose the currency code for transactions"
     ask.fr = "Choisir le code devise pour les transactions"
     type = "select"
-    choices = ["USD", "EUR", "GBP", "CHF", "CNY", "JPY"]
+    choices = ["CHF", "CNY", "EUR", "GBP", "JPY", "USD"]
     default = "EUR"
 
     [install.pin]
