@@ -19,6 +19,15 @@ ynh_app_setting_set --key=currency --value=$currency
 ynh_app_setting_set --key=pin --value=$pin
 
 #=================================================
+# CHECK IF THE APP CAN BE INSTALLED WITH THESE ARGS
+#=================================================
+ynh_script_progression "Validating installation parameters..."
+
+if [[ ${#pin} -lt 4 ]] & [[ ${#pin} gt 10 ]]; then
+    ynh_die "PIN length is 4 to 10 digits"
+fi
+
+#=================================================
 # INSTALL DEPENDENCIES
 #=================================================
 ynh_script_progression "Installing dependencies..."
