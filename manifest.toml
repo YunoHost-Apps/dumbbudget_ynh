@@ -50,8 +50,8 @@ ram.runtime = "50M"
     default = "EUR"
 
     [install.pin]
-    help.en = "Choose an optional PIN protection (4-10 digits)"
-    help.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
+    ask.en = "Choose an optional PIN protection (4-10 digits)"
+    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
     type = "number"
     default = ""
 
