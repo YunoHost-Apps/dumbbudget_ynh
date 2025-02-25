@@ -33,7 +33,6 @@ Une application simple et sécurisée de gestion de budget personnel avec protec
     📤 Exportation au format CSV
     🔍 Filtrer les transactions par type
     💱 Prise en charge de plusieurs devises
-    
 
 **Version incluse :** 1.0.0~ynh1
 
