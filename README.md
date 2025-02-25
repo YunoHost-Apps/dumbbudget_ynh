@@ -22,17 +22,17 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 
 ### Features
 
-    🔒 PIN-protected access
-    💰 Track income and expenses
-    📊 Real-time balance calculations
-    🏷️ Categorize transactions
-    📅 Date range filtering
-    🔄 Sort by date or amount
-    📱 Responsive design
-    🌓 Light/Dark theme
-    📤 Export to CSV
-    🔍 Filter transactions by type
-    💱 Multi-currency support
+- PIN-protected access
+- Track income and expenses
+- Real-time balance calculations
+- Categorize transactions
+- Date range filtering
+- Sort by date or amount
+- Responsive design
+- Light/Dark theme
+- Export to CSV
+- Filter transactions by type
+- Multi-currency support
 
 
 **Shipped version:** 1.0.0~ynh1
