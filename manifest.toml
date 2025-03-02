@@ -56,8 +56,9 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbBudget/archive/10d2f4efad2b4c3f2f00acaa3b861f3fd792ac92.tar.gz"
-    sha256 = "97d6127a8e9425b29261cee0a57b83d0c7e579c137143845ddb08dffb32f5983"
+    url = "https://github.com/DumbWareio/DumbBudget/archive/0eafd5ad38fb1381782511ba654de634cb9ea331.tar.gz"
+    sha256 = "fa04241327e67fba0ae311d73d1ea9eed8699be9e2706026cf938ae548e3a825"
+    autoupdate.upstream = "https://github.com/DumbWareio/DumbBudget"
     autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
