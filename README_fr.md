@@ -35,7 +35,7 @@ Une application simple et sécurisée de gestion de budget personnel avec protec
 - Prise en charge de plusieurs devises
     
 
-**Version incluse :** 2025.03.12~ynh1
+**Version incluse :** 2025.03.23~ynh1
 
 ## Captures d’écran
 

@@ -35,7 +35,7 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 - Multi-currency support
 
 
-**分发版本：** 2025.03.12~ynh1
+**分发版本：** 2025.03.23~ynh1
 
 ## 截图
 
