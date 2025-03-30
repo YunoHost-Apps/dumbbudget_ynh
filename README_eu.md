@@ -35,7 +35,7 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 - Multi-currency support
 
 
-**Paketatutako bertsioa:** 2025.03.12~ynh1
+**Paketatutako bertsioa:** 2025.03.26~ynh1
 
 ## Pantaila-argazkiak
 
@@ -52,7 +52,7 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/dumbbudget_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/dumbbudget_ynh/tree/testing --debug

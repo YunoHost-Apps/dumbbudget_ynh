@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# DumbBudget para Yunohost
+# DumbBudget para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/dumbbudget)](https://ci-apps.yunohost.org/ci/apps/dumbbudget/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/dumbbudget)
@@ -35,7 +35,7 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 - Multi-currency support
 
 
-**Versión actual:** 2025.03.12~ynh1
+**Versión actual:** 2025.03.26~ynh1
 
 ## Capturas
 

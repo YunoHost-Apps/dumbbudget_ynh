@@ -35,7 +35,7 @@ A simple, secure personal budgeting app with PIN protection. Track your income a
 - Multi-currency support
 
 
-**Geleverde versie:** 2025.03.12~ynh1
+**Geleverde versie:** 2025.03.26~ynh1
 
 ## Schermafdrukken
 
