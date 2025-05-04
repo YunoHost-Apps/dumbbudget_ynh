@@ -14,6 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
+admindoc = "https://www.dumbware.io/DumbBudget"
 code = "https://github.com/DumbWareio/DumbBudget"
 fund = "https://buymeacoffee.com/dumbware"
 
