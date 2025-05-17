@@ -45,7 +45,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
-yunohost service add "$app" --description="Dumb kanban" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Simple budget app" --log="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL DODOC
