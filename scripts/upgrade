@@ -20,7 +20,7 @@ ynh_systemctl --service="$app" --action="stop" --log_path="systemd"
 ynh_script_progression "Ensuring downward compatibility..."
 
 ynh_app_setting_set_default --key=currency --value="EUR"
-ynh_app_setting_set_default --key=pin --value=""
+ynh_app_setting_set_default --key=pin --value="123456"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -45,7 +45,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
-yunohost service add "$app" --description="Dumb kanban" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Simple budget app" --log="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL DODOC
