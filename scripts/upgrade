@@ -20,7 +20,7 @@ ynh_systemctl --service="$app" --action="stop" --log_path="systemd"
 ynh_script_progression "Ensuring downward compatibility..."
 
 ynh_app_setting_set_default --key=currency --value="EUR"
-ynh_app_setting_set_default --key=pin --value="123456"
+ynh_app_setting_set_default --key=pin --value=""
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
