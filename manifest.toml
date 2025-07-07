@@ -7,7 +7,7 @@ name = "DumbBudget"
 description.en = "stupid simple budget app"
 description.fr = "application de budget simple"
 
-version = "2025.05.18~ynh1"
+version = "2025.07.01~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -57,8 +57,8 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbBudget/archive/2a2f36b3930ea6912fb84937dd230593a87d47e9.tar.gz"
-    sha256 = "fd7bd07d67abb5ba8ca523d1e2d5504b26dac5cc125e57eb86a1d20f6f1ae16e"
+    url = "https://github.com/DumbWareio/DumbBudget/archive/d44543bf67ecedb416138ac4de93759d3a324999.tar.gz"
+    sha256 = "48be3608709672b0cafd69f4d833678fc73204595958acc2065efebd271f1e34"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbBudget"
     autoupdate.strategy = "latest_github_commit"
 
