@@ -7,7 +7,7 @@ name = "DumbBudget"
 description.en = "stupid simple budget app"
 description.fr = "application de budget simple"
 
-version = "2025.11.03~ynh1"
+version = "2025.11.03~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -49,7 +49,9 @@ ram.runtime = "70M"
     [install.pin]
     ask.en = "Choose an optional PIN protection (4-10 digits)"
     ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
-    type = "number"
+    type = "string"
+    pattern.regexp = '^\d{4,10}$'
+    optional = true
 
 [resources]
 
