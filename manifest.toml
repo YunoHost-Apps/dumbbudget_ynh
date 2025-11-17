@@ -7,7 +7,7 @@ name = "DumbBudget"
 description.en = "stupid simple budget app"
 description.fr = "application de budget simple"
 
-version = "2025.11.03~ynh1"
+version = "2025.11.03~ynh2"
 
 maintainers = ["eric_G"]
 
